@@ -1,0 +1,77 @@
+<html>
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <style>
+            body {
+                font-family: courier-std, monospace;
+                font-style: normal;
+                font-weight: 400;
+                background-color: white;
+                line-height: 0.3;
+                font-size: 10;
+            }
+            .light-text {
+                color: rgb(210,210,210);
+            }
+            .bold-text {
+                color: rgb(20,20,20);
+            }
+            .name {
+                font-size: 25;
+                line-height: 0.8;
+            }
+            .job-title {
+                font-size: 12.5;
+                line-height: 1;
+            }
+            .maindiv {
+                height: 50mm;
+                width: 90mm;
+                border: 1px solid;
+                border-color: black;
+            }
+            .maindiv p {
+                margin-left: 10px;
+            }
+            .maindiv p:first-child {
+                margin-top: 8px;
+            }
+            .maindiv p:last-child {
+                margin-bottom: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="maindiv">
+            <p class="light-text">#!/usr/bin/env python</p>
+            <p class="light-text"># Copyright 2019 Rishav Thakker</p>
+            <p class="light-text"># This business card comes with no
+            warranty.</p>
+            <p class="light-text"># Use at your own risk.</p>
+            <p class="light-text">from __future__ import print_function</p>
+            <p class="light-text">p = lambda x: print(x)</p>
+            <p class="light-text">p("Hello World,")</p>
+            <p>
+                <span class="light-text">p("I am &nbsp;</span>
+                <span class="bold-text name">Rishav Thakker</span>
+                <span class="light-text">")</span>
+            </p>
+            <p>
+                <span class="light-text">p("I am a &nbsp;&nbsp;&nbsp;</span>
+                <span class="bold-text job-title">Software Developer</span>
+                <span class="light-text">")</span>
+            </p>
+            <p class="light-text">p("Contact me at: \</p>
+            <p>
+                <span class="bold-text contact">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    i@rishavthakker.com</span>
+                <span class="light-text">")</span>
+            </p>
+            <p class="light-text"># Have a nice day :)</p>
+        </div>
+    </body>
+</html>
